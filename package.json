@@ -1,6 +1,6 @@
 {
   "name": "couch2code-dialog",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Simple Dialog component for couch2code",
   "main": "index.js",
   "scripts": {
