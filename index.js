@@ -47,8 +47,8 @@ var style = {
 }
 */
 
-var h = require('npm:hyperscript')
-var modal = require('github:yuanqing/modal')
+var h = require('hyperscript')
+var modal = require('@yuanqing/modal')
 
 module.exports = function (contents, btnText) {
   var markup = h('.modal', {style: style.modal}, [
