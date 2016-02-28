@@ -1,0 +1,16 @@
+{
+  "name": "@twilson63/dialog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Tom",
+  "license": "ISC",
+  "dependencies": {
+    "@yuanqing/modal": "^0.1.0",
+    "hyperscript": "^1.4.7"
+  }
+}
