@@ -1,6 +1,13 @@
 /*
 
 simple dialog component using hyperscript
+
+thanks to
+
+https://github.com/yuanqing/modal
+http://www.queness.com/post/1696/create-a-beautiful-looking-custom-dialog-box-with-jquery-and-css3
+https://github.com/dominictarr/hyperscript
+
 */
 var style = {
   modal: {
@@ -48,9 +55,9 @@ var style = {
 */
 
 var h = require('hyperscript')
-var modal = require('github:yuanqing/modal')
+var modal = require('./modal')
 
-module.exports = function (contents, btnText) {
+module.exports = function xdialog(contents, btnText) {
   var markup = h('.modal', {style: style.modal}, [
     h('.modal__dialog', { style: style.dialog }, [
       h('div', { style: style.content }, [contents]),
@@ -67,7 +74,5 @@ module.exports = function (contents, btnText) {
       timingFunction: 'ease'
     }
   })
-  setTimeout(function () {
-    m.show()
-  }, 100)
+  return m
 }

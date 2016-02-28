@@ -1,7 +1,7 @@
 {
-  "name": "@twilson63/dialog",
+  "name": "couch2code-dialog",
   "version": "1.0.5",
-  "description": "Simple Dialog component",
+  "description": "Simple Dialog component for couch2code",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
